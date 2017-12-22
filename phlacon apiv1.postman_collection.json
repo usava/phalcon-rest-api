@@ -1,0 +1,358 @@
+{
+	"info": {
+		"name": "phlacon apiv1",
+		"_postman_id": "4809d31b-1594-a631-a6df-4f74e5d44b09",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "phalcon4/apiv1/auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "phone",
+							"value": "+380501883637",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "827ccb0eea8a706c4c34a16891f84e7b",
+							"type": "text"
+						},
+						{
+							"key": "key",
+							"value": "rNkJGSL1sg@Jbz@iFWV8|4fB5lP{n#Z%HGGQtQOb",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "phalcon4/apiv1/auth",
+					"host": [
+						"phalcon4"
+					],
+					"path": [
+						"apiv1",
+						"auth"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "phalcon4/apiv1/registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "key",
+							"value": "rNkJGSL1sg@Jbz@iFWV8|4fB5lP{n#Z%HGGQtQOb",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testuser1",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "827ccb0eea8a706c4c34a16891f84e7b",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "+380501883637",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "phalcon4/apiv1/registration",
+					"host": [
+						"phalcon4"
+					],
+					"path": [
+						"apiv1",
+						"registration"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "phalcon4/apiv1/addOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "passanger_id",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "access_token",
+							"value": "37d18fc1616795af",
+							"type": "text"
+						},
+						{
+							"key": "user_location[]",
+							"value": "22.333",
+							"type": "text"
+						},
+						{
+							"key": "user_location[]",
+							"value": "34.455",
+							"type": "text"
+						},
+						{
+							"key": "car_id",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "driver_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "pass_phone",
+							"value": "380996783492",
+							"type": "text"
+						},
+						{
+							"key": "region_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "route_points[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\"lat\":\"45.32323\",\"lon\":\"39.544645\",\"sort\":\"1\"",
+							"type": "text"
+						},
+						{
+							"key": "route_points[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\"lat\":\"45.32323\",\"lon\":\"39.544645\",\"sort\":\"1\"",
+							"type": "text"
+						},
+						{
+							"key": "route_points[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\"lat\":\"45.32323\",\"lon\":\"39.544645\",\"sort\":\"1\"",
+							"type": "text"
+						},
+						{
+							"key": "route_points[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\"lat\":\"45.32323\",\"lon\":\"39.544645\",\"sort\":\"1\"",
+							"type": "text"
+						},
+						{
+							"key": "start_time",
+							"value": "2016-09-25 14:55",
+							"type": "text"
+						},
+						{
+							"key": "pass_count",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "callme",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "large",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "pets",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "wishlist_option_id[]",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "wishlist_option_id[]",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "baby_chair",
+							"value": "1-4",
+							"type": "text"
+						},
+						{
+							"key": "payment_type_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "deffered_payment",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "12",
+							"type": "text"
+						},
+						{
+							"key": "extension",
+							"value": "1:33:00",
+							"type": "text"
+						},
+						{
+							"key": "comment",
+							"value": "test comment",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "phalcon4/apiv1/addOrder",
+					"host": [
+						"phalcon4"
+					],
+					"path": [
+						"apiv1",
+						"addOrder"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "phalcon4/apiv1/setOrderStatus",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "access_token",
+							"value": "37d18fc1616795af",
+							"type": "text"
+						},
+						{
+							"key": "driver_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "order_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "order_status_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "fact_route[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\n\"lat\":\"45.32323\",\n\"lon\":\"39.544645\",\n\"sort\":\"1\"\n",
+							"type": "text"
+						},
+						{
+							"key": "fact_route[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\n\"lat\":\"45.32323\",\n\"lon\":\"39.544645\",\n\"sort\":\"1\"\n",
+							"type": "text"
+						},
+						{
+							"key": "fact_route[]",
+							"value": "\"adress\":\"Ukraine, Dnipro, Malinovskogo 2\",\n\"lat\":\"45.32323\",\n\"lon\":\"39.544645\",\n\"sort\":\"1\"\n",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "phalcon4/apiv1/setOrderStatus",
+					"host": [
+						"phalcon4"
+					],
+					"path": [
+						"apiv1",
+						"setOrderStatus"
+					]
+				},
+				"description": null
+			},
+			"response": []
+		},
+		{
+			"name": "phalcon4/apiv1/getMapInfo?access_token=37d18fc1616795af&lat=24.454554455&lng=23.4544545455\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "phalcon4/apiv1/getMapInfo?access_token=37d18fc1616795af&lat=24.454554455&lng=23.4544545455",
+					"host": [
+						"phalcon4"
+					],
+					"path": [
+						"apiv1",
+						"getMapInfo"
+					],
+					"query": [
+						{
+							"key": "access_token",
+							"value": "37d18fc1616795af",
+							"equals": true
+						},
+						{
+							"key": "lat",
+							"value": "24.454554455",
+							"equals": true
+						},
+						{
+							"key": "lng",
+							"value": "23.4544545455\n",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
