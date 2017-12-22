@@ -18,7 +18,7 @@ $worker->addFunction("send_new_order", function(GearmanJob $job) use (&$app, &$d
     $driver_id = $data->driver_id;
     echo "Sending order: $order->id \n";
     $result = push($order->id, $driver_id);  // отправляем водителю новый заказ на принятие
-    $job->sendStatus($result);
+    $job->sendStatus($result, 1);
 });
 
 while ($worker->work());
